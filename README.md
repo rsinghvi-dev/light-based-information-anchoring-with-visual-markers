@@ -1,5 +1,5 @@
-# visual-attacks-on-thermal-cameras
-Software created by undergraduate students enrolled in ECE 597SD at UMass Amherst. The software is for a project about visual attacks on thermal cameras. 
+# light based information anchoring with visual markers
+Software created by undergraduate students enrolled in ECE 597SD at UMass Amherst. The software is for a project about light based information anchoring with visual markers. 
 
 
 Team Members|Roles:
@@ -7,37 +7,36 @@ Tom Horner|Research    Jared Malone|Hardware     Orion McLain|Writing     Rohan 
 
 
 Background (Given):
-A thermal camera is a contactless device that detects infrared energy and converts it into an
-image, capable of detecting tiny differences in temperature and see through darkness or smoke. 
-One of the application of thermal camera is in public safety; firefighters use thermal cameras 
-to see the heat signature of visually obscured victims. Firefighters use these cameras to search for
-spot smoldering fires inside a wall, or detect overheated electrical wiring. These cameras are
-susceptible to the malicious attacks however. Theoretically any attack that is feasible on visual
-cameras could be launched on thermal cameras as well. People with malicious intent could attack
-the thermal camera feed and modify the images to attack safety critical applications.
+Light based anchors (LEDs) for information overlaying are robust to background visual
+noise (unlike active IR), not obtrusive, and resilient to partial occlusions unlike other visual markers.
+These tags can work directly with devices using computer vision techniques (phone/tablet cameras,
+headsets). Prominently, these tags are also capable of transmitting data at a rate that depends
+upon the receiver camera’s frame rate. The LED tag communicates its identity by blinking a unique
+visual pattern in time and can be identified over longer distances that is particularly useful for data
+communication and localization. A major challenge in LED based communication is that the pattern
+decoding requires both sender device and receiver device to be synchronized in time. Any timing
+offset will spread the signal across multiple frames and induce errors in decoding.
 
 
 Motivation:
 
 
 Design Goals:
-Test the efficacy of conventional visual attacks on thermal cameras, and to assess security of
-thermal cameras in public safety applications.
+Create a light-based anchor to precisely overlay content on iphone screen
 
 
 Deliverables:
--Calibrate thermal cameras
--Research visual attacks on light cameras and map those attacks to thermal cameras
--Implement image processing techniques to launch visual attacks
--Quantify the stealthiness of these attacks
+- Implement software for LED encoding
+- Receive LED encoded patterns on iphone camera and decode the pattern (encoded ID)
+- Precisely overlay ID on iphone screen
 
 
 System Blocks: 
 
 
 Hardware Requirements:
--Thermal camera
--Microcontroller
+- microcontroller (BLEs, LEDs)
+- Iphone
 
 
 Software Requirements:
