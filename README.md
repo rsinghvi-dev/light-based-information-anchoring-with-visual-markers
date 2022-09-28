@@ -19,32 +19,48 @@ offset will spread the signal across multiple frames and induce errors in decodi
 
 
 Motivation:
+Screen based sensing is a very promising field in technology for the future. With screens more prevelant than ever being able to analyze information being relayed from these light based sources is a useful way to communicate. Working with LEDs 
 
 
 Design Goals:
-Create a light-based anchor to precisely overlay content on iphone screen
+Create a light-based anchor to precisely overlay content on iPhone screen with precise synchronization in time
 
 
 Deliverables:
 - Implement software for LED encoding
 - Receive LED encoded patterns on iphone camera and decode the pattern (encoded ID)
-- Precisely overlay ID on iphone screen
+- Precisely overlay ID on iPhone screen
 
 
 System Blocks: 
+- Microcontroller (BLEs, LEDs)
+- iPhone
+- Bit encoder
+- Bit decoder
+- LED blinking extractor
+- Error correction (checksum)
 
 
 Hardware Requirements:
 - microcontroller (BLEs, LEDs)
-- Iphone
+- iPhone
 
 
 Software Requirements:
+- UI (website or application)
+- Bit encoder
+- Bit decoder
 
 
 Project Timeline:
+- October 15th:
+-
+-
 
 
 References:
 https://movitherm.com/knowledgebase/thermal-infrared-imaging-explained/
-
+https://labs.mozilla.org/projects/webxr-viewer/
+https://www.freepatentsonline.com/y2020/0357182.html
+https://arxiv.org/pdf/2105.05092.pdf
+https://users.ece.cmu.edu/~vsekar/assets/pdf/ipsn20_glitter.pdf
