@@ -2,7 +2,7 @@
 Software created by undergraduate students enrolled in ECE 597SD at UMass Amherst. The software is for a project about light based information anchoring with visual markers. 
 
 
-Team Members|Roles:
+Team Members | Roles:
 - Tom Horner    | Research
 - Jared Malone  | Hardware       
 - Orion McLain  | Writing       
