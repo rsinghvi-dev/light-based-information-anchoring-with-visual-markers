@@ -19,11 +19,13 @@ offset will spread the signal across multiple frames and induce errors in decodi
 
 
 Motivation:
-Screen based sensing is a very promising field in technology for the future. With screens more prevelant than ever being able to analyze information being relayed from these light based sources is a useful way to communicate. Working with LEDs 
+Screen based sensing is a very promising field in technology for the future. With screens more prevelant than ever, being able to analyze information relayed from these light based sources is a useful way to communicate. Working with LEDs is a good entry point into the space of light-based information anchoring, and will provide the necessary experience to move forward in this field in the future. 
 
 
 Design Goals:
-Create a light-based anchor to precisely overlay content on iPhone screen with precise synchronization in time
+-Create a light-based anchor to precisely overlay content on iPhone screen precise synchronization in time
+-Support data rates of at least 0.1 Kbps
+-Accurate data decoding
 
 
 Deliverables:
@@ -53,9 +55,11 @@ Software Requirements:
 
 
 Project Timeline:
-- October 15th:
--
--
+- Oct 21: Have first project meeting and start working
+- Nov 4 : Microcontroller configured: LED and BLE
+- Nov 18: Have iPhone code prototype functional
+- Dec 2 : Have research paper rough draft
+- Dec 9 : Project complete
 
 
 References:
