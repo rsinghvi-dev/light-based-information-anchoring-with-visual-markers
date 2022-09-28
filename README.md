@@ -3,7 +3,10 @@ Software created by undergraduate students enrolled in ECE 597SD at UMass Amhers
 
 
 Team Members|Roles:
-Tom Horner|Research    Jared Malone|Hardware     Orion McLain|Writing     Rohan Singhvi|Software
+- Tom Horner    | Research
+- Jared Malone  | Hardware       
+- Orion McLain  | Writing       
+- Rohan Singhvi | Software
 
 
 Background (Given):
@@ -23,9 +26,9 @@ Screen based sensing is a very promising field in technology for the future. Wit
 
 
 Design Goals:
--Create a light-based anchor to precisely overlay content on iPhone screen precise synchronization in time
--Support data rates of at least 0.1 Kbps
--Accurate data decoding
+- Create a light-based anchor to precisely overlay content on iPhone screen precise synchronization in time
+- Support data rates of at least 0.1 Kbps
+- Accurate data decoding
 
 
 Deliverables:
