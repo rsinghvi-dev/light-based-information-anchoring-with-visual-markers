@@ -66,8 +66,8 @@ Project Timeline:
 
 
 References:
-https://movitherm.com/knowledgebase/thermal-infrared-imaging-explained/
-https://labs.mozilla.org/projects/webxr-viewer/
-https://www.freepatentsonline.com/y2020/0357182.html
-https://arxiv.org/pdf/2105.05092.pdf
-https://users.ece.cmu.edu/~vsekar/assets/pdf/ipsn20_glitter.pdf
+1. https://movitherm.com/knowledgebase/thermal-infrared-imaging-explained/
+2. https://labs.mozilla.org/projects/webxr-viewer/
+3. https://www.freepatentsonline.com/y2020/0357182.html
+4. https://arxiv.org/pdf/2105.05092.pdf
+5. https://users.ece.cmu.edu/~vsekar/assets/pdf/ipsn20_glitter.pdf
