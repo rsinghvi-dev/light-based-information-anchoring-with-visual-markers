@@ -4,7 +4,7 @@ Software created by undergraduate students enrolled in ECE 597SD at UMass Amhers
 
 Team Members | Roles:
 - Tom Horner    | Research
-- Jared Maloney  | Hardware       
+- Jared Malone  | Hardware       
 - Orion McLain  | Writing       
 - Rohan Singhvi | Software
 
